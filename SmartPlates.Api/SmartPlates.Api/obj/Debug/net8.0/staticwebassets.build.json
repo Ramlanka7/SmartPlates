@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Fq2W54N1apWTv3wPmvWdHJYLqxbPvi0KETvY39vwFqk=",
+  "Source": "SmartPlates.Api",
+  "BasePath": "_content/SmartPlates.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
