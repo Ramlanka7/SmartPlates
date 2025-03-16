@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPlates.Api", "SmartPlates.Api.csproj", "{5960D781-F531-422E-9B61-70773FEEA752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartPlates.Api", "SmartPlates.Api.csproj", "{5960D781-F531-422E-9B61-70773FEEA752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartPlates.Models", "..\SmartPlates.Models\SmartPlates.Models.csproj", "{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5960D781-F531-422E-9B61-70773FEEA752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5960D781-F531-422E-9B61-70773FEEA752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5960D781-F531-422E-9B61-70773FEEA752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

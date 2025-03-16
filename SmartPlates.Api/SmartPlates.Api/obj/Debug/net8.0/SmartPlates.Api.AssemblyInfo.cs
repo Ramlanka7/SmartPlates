@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartPlates.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cbc8beaca4f3c8c180d59edc68f0a1f2b85efc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0b6d86262114d4173f3ce6b555ba445016f4722")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartPlates.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartPlates.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

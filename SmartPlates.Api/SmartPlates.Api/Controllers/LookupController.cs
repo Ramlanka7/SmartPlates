@@ -7,5 +7,11 @@ namespace SmartPlates.Api.Controllers
     [ApiController]
     public class LookupController : ControllerBase
     {
+        [HttpGet("roles")]
+        public IActionResult GetRoles()
+        {
+            var roles = new List<string> { "Admin", "User", "Manager" };
+            return Ok(roles);
+        }
     }
 }

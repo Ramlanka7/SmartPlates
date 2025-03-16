@@ -1,0 +1,12 @@
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\bin\Debug\net8.0\SmartPlates.Models.deps.json
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\bin\Debug\net8.0\SmartPlates.Models.dll
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\bin\Debug\net8.0\SmartPlates.Models.pdb
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.AssemblyInfoInputs.cache
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.AssemblyInfo.cs
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.csproj.CoreCompileInputs.cache
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.sourcelink.json
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.dll
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\refint\SmartPlates.Models.dll
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\SmartPlates.Models.pdb
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Models\obj\Debug\net8.0\ref\SmartPlates.Models.dll

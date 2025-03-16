@@ -1,12 +1,103 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|c:\\projects\\smartplates\\smartplates.api\\smartplates.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|c:\\projects\\smartplates\\smartplates.api\\smartplates.api\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|solutionrelative:controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|c:\\projects\\smartplates\\smartplates.api\\smartplates.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5960D781-F531-422E-9B61-70773FEEA752}|SmartPlates.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}|..\\SmartPlates.Models\\SmartPlates.Models.csproj|c:\\projects\\smartplates\\smartplates.api\\smartplates.models\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA48AA5-1AEB-47D1-9213-2DE1E36E409C}|..\\SmartPlates.Models\\SmartPlates.Models.csproj|c:\\projects\\smartplates\\smartplates.api\\smartplates.models\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:09:16.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LookupController.cs",
+              "DocumentMoniker": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Controllers\\LookupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LookupController.cs",
+              "ToolTip": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Controllers\\LookupController.cs",
+              "RelativeToolTip": "Controllers\\LookupController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:09:00.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Models\\Response\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\SmartPlates.Models\\Response\\LoginResponse.cs",
+              "ToolTip": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Models\\Response\\LoginResponse.cs",
+              "RelativeToolTip": "..\\SmartPlates.Models\\Response\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:05:16.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Models\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\SmartPlates.Models\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Models\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "..\\SmartPlates.Models\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T00:04:30.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Projects\\SmartPlates\\SmartPlates.Api\\SmartPlates.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T23:58:39.215Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

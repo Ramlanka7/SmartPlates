@@ -31,3 +31,5 @@ C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\obj\Debug\net8.0\refint\
 C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\obj\Debug\net8.0\SmartPlates.Api.pdb
 C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\obj\Debug\net8.0\SmartPlates.Api.genruntimeconfig.cache
 C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\obj\Debug\net8.0\ref\SmartPlates.Api.dll
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\bin\Debug\net8.0\SmartPlates.Models.dll
+C:\Projects\SmartPlates\SmartPlates.Api\SmartPlates.Api\bin\Debug\net8.0\SmartPlates.Models.pdb
