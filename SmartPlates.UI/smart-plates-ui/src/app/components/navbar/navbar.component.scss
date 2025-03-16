@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&family=Montserrat:wght@400;600&family=Raleway:wght@400;600&display=swap');
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Colorful Navbar */
+  padding: 15px 30px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section */
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 22px;  /* ✅ Slightly larger for modern feel */
+    font-weight: 700;  /* ✅ Bolder look */
+    margin-right: 15px;
+    font-family: 'Lexend', 'Montserrat', 'Raleway', sans-serif; /* ✅ Modern font stack */
+    letter-spacing: 1px; /* ✅ Adds spacing for sleek design */
+    text-transform: uppercase; /* ✅ Uppercase for branding impact */
+  }
+
+.restaurant-name {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* Right Section */
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.settings,
+.logout {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.settings:hover,
+.logout:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .brand-name,
+  .restaurant-name {
+    display: none; /* Hide text on smaller screens */
+  }
+}

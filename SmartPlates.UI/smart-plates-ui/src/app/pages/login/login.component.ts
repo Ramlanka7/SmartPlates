@@ -30,8 +30,9 @@ export class LoginComponent {
   constructor(private authService: AuthService, private router: Router) {}
 
   login() {
+    alert('hi'); 
     if (this.authService.login(this.username, this.password)) {
-      this.router.navigate(['/pos']); // Redirect to POS after login
+      this.router.navigate(['/dashboard']); // Redirect to POS after login
     } else {
       this.errorMessage = 'Invalid credentials';
     }
