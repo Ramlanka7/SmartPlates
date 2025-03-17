@@ -1,16 +1,45 @@
+<!-- ✅ Navbar (Always at the Top) -->
 <nav class="navbar">
-    <div class="left">
-      <div class="hamburger">&#9776;</div>
-      <span class="brand-name">SMART PLATES</span>
-    </div>
+  <div class="left">
+    <div class="hamburger" (click)="toggleSidebar()">&#9776;</div>
+    <span class="brand-name">SMART PLATES</span>
+  </div>
 
-    <div class="center">
-        <span class="restaurant-name">{{ restaurantName }}</span>
-      </div>
-    
-    <div class="right">
-      <button class="settings">⚙️ Settings</button>
-      <button class="logout" (click)="logout()">🚪 Logout</button>
-    </div>
-  </nav>
-  
+  <div class="center">
+    <span class="restaurant-name">{{ restaurantName }}</span>
+  </div>
+
+  <div class="right">
+    <button class="settings">⚙️ Settings</button>
+    <button class="logout" (click)="logout()">🚪 Logout</button>
+  </div>
+</nav>
+
+<!-- ✅ Sidebar Now Appears **Below** Navbar -->
+<div class="sidebar-container">
+  <div class="sidebar" [class.open]="isSidebarOpen">
+    <ul>
+      <li (click)="navigateTo('/dashboard')">
+        <i class="fas fa-tachometer-alt"></i> Dashboard
+      </li>
+      <li (click)="navigateTo('/table-management')">
+        <i class="fas fa-chair"></i> Table Management
+      </li>
+      <li (click)="navigateTo('/menu-management')">
+        <i class="fas fa-utensils"></i> Menu Management
+      </li>
+      <li (click)="navigateTo('/inventory-management')">
+        <i class="fas fa-box"></i> Inventory Management
+      </li>
+      <li (click)="navigateTo('/billing')">
+        <i class="fas fa-receipt"></i> Billing & Payments
+      </li>
+      <li (click)="navigateTo('/employee-management')">
+        <i class="fas fa-users"></i> Employee Management
+      </li>
+      <li (click)="navigateTo('/reports')">
+        <i class="fas fa-chart-bar"></i> Reports & Analytics
+      </li>
+    </ul>
+  </div>
+</div>

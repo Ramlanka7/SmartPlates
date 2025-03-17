@@ -1,4 +1,65 @@
-<app-navbar></app-navbar>
-<div class="dashboard-content">
-  <h1>Welcome to the Dashboard</h1>
+<app-navbar></app-navbar>  <!-- ✅ Navbar included -->
+
+<div class="dashboard-layout">
+  <!-- ✅ Main Dashboard Content (3/4 of the page) -->
+  
+  <div class="dashboard-container">
+    <h2>Dashboard Overview</h2>
+
+    <div class="card-grid">
+      <!-- Total Sales Card -->
+      <div class="dashboard-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Total Sales</h3>
+        <p><strong>Orders:</strong> {{ totalOrders }}</p>
+        <p><strong>Sales:</strong> ${{ totalSales }}</p>
+      </div>
+
+      <!-- Dine-In Card -->
+      <div class="dashboard-card">
+        <i class="fas fa-utensils"></i>
+        <h3>Dine-In</h3>
+        <p><strong>Orders:</strong> {{ dineInOrders }}</p>
+        <p><strong>Sales:</strong> ${{ dineInAmount }}</p>
+      </div>
+
+      <!-- Take Away Card -->
+      <div class="dashboard-card">
+        <i class="fas fa-shopping-bag"></i>
+        <h3>Take Away</h3>
+        <p><strong>Orders:</strong> {{ takeAwayOrders }}</p>
+        <p><strong>Sales:</strong> ${{ takeAwayAmount }}</p>
+      </div>
+
+      <!-- Delivery Card -->
+      <div class="dashboard-card">
+        <i class="fas fa-motorcycle"></i>
+        <h3>Delivery</h3>
+        <p><strong>Orders:</strong> {{ deliveryOrders }}</p>
+        <p><strong>Sales:</strong> ${{ deliveryAmount }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Order Statistics Section (1/4 of the page) -->
+  <div class="order-statistics">
+    <h2>Order Statistics</h2>
+    <div class="statistics-card">
+      <i class="fas fa-check-circle success-icon"></i>
+      <h3>Successful Orders</h3>
+      <p>680</p>
+    </div>
+
+    <div class="statistics-card">
+      <i class="fas fa-times-circle cancel-icon"></i>
+      <h3>Canceled Orders</h3>
+      <p>20</p>
+    </div>
+
+    <div class="statistics-card">
+      <i class="fas fa-clock turnaround-icon"></i>
+      <h3>Table Turnaround Time</h3>
+      <p>15 min</p>
+    </div>
+  </div>
 </div>

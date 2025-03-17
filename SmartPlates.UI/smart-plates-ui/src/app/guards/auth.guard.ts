@@ -8,12 +8,13 @@ import { AuthService } from '../services/auth.service';
 export class AuthGuard implements CanActivate {
   constructor(private authService: AuthService, private router: Router) {}
 
-  canActivate(): boolean {    
-    if (this.authService.isLoggedIn()) {
-      return true; // Allow access if logged in
-    } else {
-      this.router.navigate(['/login']); // Redirect to login if not authenticated
+  canActivate(): boolean {
+    alert('Yes');
+    const isAuthenticated = !!localStorage.getItem('token'); // ✅ Check if token exists
+    if (!isAuthenticated) {
+      this.router.navigate(['/login']); // ✅ Redirect only if not logged in
       return false;
     }
+    return true; // ✅ Allow navigation if logged in
   }
 }

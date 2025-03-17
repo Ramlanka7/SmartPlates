@@ -1,45 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&family=Montserrat:wght@400;600&family=Raleway:wght@400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(135deg, #2575fc, #6a11cb); /* Colorful Navbar */
+//   background: linear-gradient(135deg, #2575fc, #6a11cb);
+background: linear-gradient(135deg, #0D47A1, #1976D2);
   padding: 15px 30px;
   color: white;
   font-family: 'Poppins', sans-serif;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
 /* Left Section */
 .left {
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
 .hamburger {
   font-size: 24px;
   cursor: pointer;
   margin-right: 15px;
+  transition: transform 0.3s;
 }
 
-.logo {
-  height: 40px;
-  margin-right: 10px;
+.hamburger:hover {
+  transform: scale(1.1);
 }
 
 .brand-name {
-    font-size: 22px;  /* ✅ Slightly larger for modern feel */
-    font-weight: 700;  /* ✅ Bolder look */
-    margin-right: 15px;
-    font-family: 'Lexend', 'Montserrat', 'Raleway', sans-serif; /* ✅ Modern font stack */
-    letter-spacing: 1px; /* ✅ Adds spacing for sleek design */
-    text-transform: uppercase; /* ✅ Uppercase for branding impact */
-  }
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ✅ Centering Restaurant Name */
+.center {
+  flex: 1;
+  text-align: center;
+}
 
 .restaurant-name {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   opacity: 0.9;
 }
 
@@ -47,6 +54,8 @@
 .right {
   display: flex;
   align-items: center;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 .settings,
@@ -66,10 +75,55 @@
   background: rgba(255, 255, 255, 0.4);
 }
 
+/* ✅ Sidebar Styling */
+.sidebar {
+  position: fixed;
+  top: 63px; /* ✅ Adjust this based on your navbar height */
+  left: -275px; /* Initially hidden */
+  width: 275px;
+  height: calc(100vh - 60px); /* ✅ Sidebar starts below navbar */
+  background: linear-gradient(135deg, #0D47A1, #1976D2); /* ✅ Same Dark Blue Gradient */
+  color: white;
+  box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: left 0.3s ease;
+  padding-top: 0px; /* ✅ Reduce padding to align properly */
+  z-index: 999; /* ✅ Keeps sidebar below navbar */
+}
+
+.sidebar.open {
+  left: 0; /* ✅ Slide-in effect */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.sidebar ul li:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li i {
+  margin-right: 12px;
+  font-size: 20px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
-  .brand-name,
+  .brand-name {
+    font-size: 18px;
+  }
+
   .restaurant-name {
-    display: none; /* Hide text on smaller screens */
+    font-size: 16px;
   }
 }

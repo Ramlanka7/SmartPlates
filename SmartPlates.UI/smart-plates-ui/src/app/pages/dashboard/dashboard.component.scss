@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+.dashboard-layout {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* ✅ Main Dashboard (3/4 of Page) */
+.dashboard-container {
+  flex: 3; /* ✅ Makes it take 3/4 of the space */
+  text-align: center;
+}
+
+/* ✅ Order Statistics (1/4 of Page) */
+.order-statistics {
+  flex: 1; /* ✅ Takes 1/4 of the space */
+  background: linear-gradient(135deg, #0D47A1, #1976D2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-statistics h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Grid Layout for Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* ✅ Dashboard Cards */
+.dashboard-card {
+  background: linear-gradient(135deg, #0D47A1, #1976D2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dashboard-card p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* ✅ Order Statistics Cards */
+.statistics-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.statistics-card i {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+/* ✅ Different Colors for Order Status */
+.success-icon {
+  color: #4CAF50;
+}
+
+.cancel-icon {
+  color: #FF5252;
+}
+
+.turnaround-icon {
+  color: #FFC107;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  
+  .order-statistics {
+    margin-top: 20px;
+  }
+}
