@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\SmartPlates.Api.props" />
-</Project>

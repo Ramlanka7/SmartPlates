@@ -1,6 +1,6 @@
 # 🍽️ Smart Plates - POS & Restaurant Management System
 
-**Smart Plates** is a powerful and intuitive **Point of Sale (POS) and Restaurant Management System** built with **Angular 18**. It streamlines restaurant operations, from order processing and billing to inventory management and customer engagement.
+**Smart Plates** is a powerful and intuitive **Point of Sale (POS) and Restaurant Management System** built with **Blazor** and **.NET 10**. It streamlines restaurant operations, from order processing and billing to inventory management and customer engagement.
 
 ## 🚀 Features
 
@@ -16,8 +16,8 @@
 ---
 
 ## 🛠️ **Tech Stack**
-- **Frontend:** Angular 18, TypeScript, Angular Material, RxJS  
-- **Backend:** (.NET)  
-- **Database:** (SQL Server)  
-- **Authentication:**  JWT  
+- **Frontend:** Blazor, Razor Components
+- **Backend:** .NET 10  
+- **Database:** SQL Server  
+- **Authentication:** JWT
 

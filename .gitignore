@@ -1,0 +1,11 @@
+# Built-in
+.vs/
+bin/
+obj/
+/dist
+/node_modules
+.angular/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
